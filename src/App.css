@@ -113,3 +113,39 @@
 
 /* Card Animation */
 
+
+
+/* About Section */ 
+
+
+#about-img{
+  background: url('/about_img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.page-border {
+  height: 35px;
+  width: 100vw;
+  background-color: #eae9d6;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  border: .5px solid #292b2c; 
+  /* opacity: 0.5; */
+}
+
+a link:hover {
+  text-decoration: none;
+}
+
+.accordion-title {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  text-decoration: none;
+  color: #292b2c;
+}
+
+.accordion-body-text {
+  font-family: 'Istok Web', sans-serif;
+  color: #292b2c;
+}

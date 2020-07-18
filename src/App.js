@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/layout/Navbar';
 import Showcase from './components/pages/Showcase';
 import CharacterCard from './components/characters/CharacterCard';
+import About from './components/layout/About';
 
 import './App.css';
 
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Showcase />
-      <CharacterCard />
+      <About /> 
+      {/* <CharacterCard /> */}
     </div>
   );
 }
