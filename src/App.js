@@ -4,6 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Showcase from './components/pages/Showcase';
 import CharacterCard from './components/characters/CharacterCard';
 import About from './components/layout/About';
+import Accordion from './components/layout/Accordion';
 
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Showcase />
       <About /> 
+      <Accordion />
       {/* <CharacterCard /> */}
     </div>
   );
